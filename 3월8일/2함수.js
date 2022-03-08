@@ -5,10 +5,10 @@ function f(x) {return x*x;}
 // 객체 생성
 
 // 디폴트 매개변수
-(function func(a=1) {
+function func(a=1) {
     a = a || 1;
     console.log(a);
-})();
+};
 // 나머지 매개변수
 (function func4(a, b, ...c) {
     console.log(a, b, c[1]);
