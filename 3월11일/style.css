@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+button {
+    border: none;
+    background-color: transparent;
+}
+#slider {
+    display: flex;
+    margin: 0 auto;
+    width: calc(120px * 5);
+    overflow: hidden;
+}
+#slider > .inner {
+    display: flex;
+    transform: translate(calc(-120px * 5));
+}
+#slider > .inner > li > img {
+    width: 120px;
+    height: 120px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#button > button {
+    margin: 0 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(135, 206, 235);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#button > button:hover {
+    background-color: rgba(135, 206, 235, 0.5);
+}
