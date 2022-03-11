@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+#slider {
+  display: flex;
+  margin: 0, auto;
+  width: calc(120px * 5);
+  overflow: hidden;
+}
+
+#slider > .inner {
+  display: flex;
+  transform: translate(calc(-120px * 5));
+}
+
+#slider > .inner > li > img {
+  width: 120px;
+  height: 120px;
+}
+
+/* button */
+#button {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#button > button {
+  margin: 0 20px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#button > button:hover {
+  background-color: rgba(135, 206, 236, 0.5);
+}
