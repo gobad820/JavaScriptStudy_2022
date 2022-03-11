@@ -15,14 +15,14 @@ button {
 
 #slider {
   display: flex;
-  justify-content: center;
+  margin: 0, auto;
+  width: calc(120px * 5);
+  overflow: hidden;
 }
 
 #slider > .inner {
   display: flex;
-  width: calc(120px * 5);
-  overflow: hidden;
-  transform: translate(120px);
+  transform: translate(calc(-120px * 5));
 }
 
 #slider > .inner > li > img {
