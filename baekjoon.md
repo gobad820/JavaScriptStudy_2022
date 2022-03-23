@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Algorithm
 코딩 테스트를 위한 알고리즘 공부 저장소
 
@@ -78,4 +77,3 @@ rl.on("line", function(line) {
     process.exit();
 });
 ```
->>>>>>> 6e340ae981b712cf995fb5b3eae324831f704472
